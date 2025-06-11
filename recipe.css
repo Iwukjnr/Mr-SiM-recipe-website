@@ -212,25 +212,8 @@ footer {
     color: white;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
-    padding: 5px;
-    height: fit-content;
-}
-
-footer .icons {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    width: 100%;
     padding: 10px;
-}
-
-footer .fa-brands {
-    font-size: 20px;
-}
-
-footer .fa-brands:hover {
-    text-shadow: 2px 2px 20px white;
+    height: fit-content;
 }
 
 
@@ -239,6 +222,10 @@ footer .fa-brands:hover {
     grid-template-columns: auto auto auto;
     margin: 80px;
     gap: 20px 50px;
+}
+
+.recipe-collection .recipe{
+    width: 350px;
 }
 
 .recipe-card img {
@@ -426,13 +413,14 @@ footer .fa-brands:hover {
     }
 
     #all-recipes nav a {
-        color: white;
+        background-color: white;
         padding: 10px;
         border-radius: 10px;
+        border: 1px solid #1b2629;
         font-size: 20px;
         margin: 10px;
         font-weight: bolder;
-        background-color: #1b2629;
+        color: #1b2629;
     }
 
     #all-recipes nav {
@@ -448,6 +436,10 @@ footer .fa-brands:hover {
         margin: 10px;
         gap: 30px;
     }
+    .recipe-collection .recipe{
+        width: 100%;
+    }
+
 
     #newsletter h2 {
         font-size: 30px;
@@ -485,23 +477,13 @@ footer .fa-brands:hover {
     }
 
     footer {
-        background-color: #1b2629;
-        color: white;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 30px;
-        padding: 5px;
-        height: fit-content;
-    }
-
-    footer .icons {
-        display: flex;
-        justify-content: center;
-        justify-content: space-around;
-        width: 100%;
-        padding: 10px;
-    }
-
+    background-color: #1b2629;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    height: fit-content;
+}
 
     nav a {
         font-size: 20px;
