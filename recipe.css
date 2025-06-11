@@ -27,7 +27,7 @@ header {
 
 header nav a {
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
     color: #1b2629;
     border-radius: 15px;
     margin-left: 0px;
@@ -224,7 +224,7 @@ footer {
     gap: 20px 50px;
 }
 
-.recipe-collection .recipe{
+.recipe-collection .recipe {
     width: 350px;
 }
 
@@ -390,9 +390,19 @@ footer {
 
 
 @media screen and (max-width:768px) {
+    header {
+        margin: 15px 10px 20px 10px;
+        padding: 10px;
+        justify-content: space-around;
+    }
+
+    header nav a{
+        padding: 10px;
+    }
+
 
     .search input[type="text"] {
-        width: 100px;
+        width: 110px;
         height: 40px;
         padding: 5px 5px 5px 15px;
         border-radius: 15px;
@@ -437,7 +447,8 @@ footer {
         margin: 10px;
         gap: 30px;
     }
-    .recipe-collection .recipe{
+
+    .recipe-collection .recipe {
         width: 100%;
     }
 
@@ -478,13 +489,13 @@ footer {
     }
 
     footer {
-    background-color: #1b2629;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-    height: fit-content;
-}
+        background-color: #1b2629;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        height: fit-content;
+    }
 
     nav a {
         font-size: 20px;
