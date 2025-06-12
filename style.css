@@ -62,7 +62,8 @@ nav a:hover {
 }
 
 .search-bar ::placeholder {
-    font-size: 20px;
+    font-size: 12px;
+    font-weight: lighter;
     color: rgba(255, 255, 255, 0.861);
 }
 
