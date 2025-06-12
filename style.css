@@ -194,15 +194,66 @@ nav a:hover {
     background-color: #1b2629;
 }
 
+/* footer */
 footer {
     background-color: #1b2629;
     color: white;
     font-weight: bold;
-    text-align: center;
     padding: 10px;
     height: fit-content;
+    
 }
 
+footer .ftr{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quick-links, .socials{
+    display: flex;
+    flex-direction: column;
+}
+
+.socials{
+    text-align: center;
+}
+
+.quick-links a{
+    padding: 7px;
+    color: white;
+    text-align: center;
+}
+
+.quick-links a:hover, .socials a:hover{
+    text-shadow: 1px 1px 10px;
+}
+
+footer .fa-brands{
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+}
+
+footer h3{
+    font-size: 22px;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer .address p{
+    width: 160px;
+    padding-top: 8px;
+}
+
+footer .logo img{
+    width: 100px;
+    height: 100px;
+    padding-top: 50%;
+}
+/* footer end */
 
 hr {
     background-color: black;
@@ -237,6 +288,8 @@ hr {
     outline: none;
     height: 40px;
     width: 350px;
+    font-weight: bold;
+    font-style: normal;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -274,11 +327,12 @@ hr {
 }
 
 .About {
-    height: 80vh;
+    height: 85vh;
     width: 80%;
     display: flex;
     margin: auto;
     color: white;
+    padding: 20px;
 }
 
 .About p {
@@ -466,6 +520,26 @@ a {
     opacity: 0.8;
 }
 
+footer .logo img{
+    width: 40px;
+    height: 60px;
+    padding-top: 50%;
+}
+
+footer .ftr{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+footer h3{
+    font-size: 13px;
+    text-align: center;
+}
+
+.socials .fa-brands{
+    font-size: 13px;
+}
 
 }
 
