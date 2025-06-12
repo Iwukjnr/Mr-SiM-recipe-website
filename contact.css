@@ -297,15 +297,16 @@ footer .logo img {
     }
 
     footer .address p {
-        width: 160px;
-        padding-top: 8px;
+        width: fit-content;
+        padding-top: 5px;
         font-weight: lighter;
         font-size: 10px;
     }
 
     .quick-links a {
         font-size: 10px;
-        padding: 3px;
+        padding: 2px;
+        font-weight: lighter;
     }
 
     .socials {

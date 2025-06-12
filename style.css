@@ -421,7 +421,7 @@ a {
 
     #featured {
         background-color: whitesmoke;
-        height: 770px;
+        height: 710px;
     }
 
     #featured h1 {
@@ -438,7 +438,8 @@ a {
     .featured-item {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        height: fit-content;
+        
     }
 
     .featured-item img {
@@ -457,6 +458,10 @@ a {
         font-size: 20px;
         color: #1b2629;
 
+    }
+
+    .featured-item-text h2{
+        font-size: 30px;
     }
 
     .featured-item-text a {
@@ -543,7 +548,7 @@ footer .logo img{
 footer .ftr{
     display: flex;
     justify-content: space-around;
-    font-size: 10px;
+    
 }
 
 footer h3{
@@ -563,15 +568,16 @@ footer p{
 }
 
 footer .address p{
-    width: 160px;
-    padding-top: 8px;
+    width: fit-content;
+    padding-top: 5px;
     font-weight: lighter;
     font-size: 10px;
 }
 
 .quick-links a{
     font-size: 10px;
-    padding: 3px;
+    padding: 2px;
+    font-weight: lighter;
 }
 
 .socials {
@@ -585,7 +591,7 @@ footer .address p{
 @media screen and (min-width:769px) and (max-width:1024px) {
     #featured {
         background-color: whitesmoke;
-        height: 510px;
+        height: 700px;
     }
 
     #featured h1 {
@@ -601,7 +607,7 @@ footer .address p{
 
     .featured-item img {
         width: 400px;
-        height: 310px;
+        height: 530px;
         border-radius: 20px;
 
     }
@@ -635,5 +641,27 @@ footer .address p{
         font-weight: bolder;
         text-align: center;
     }
+
+    .About {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        color: white;
+    }
+
+    .About p {
+        margin: 10px;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .About img {
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+}
 
 }
