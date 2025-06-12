@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: montserrat;
+    font-family: Monsterrat;
     box-sizing: border-box;
 }
 
@@ -23,7 +23,7 @@ header a {
     text-decoration: none;
     color: #1b2629;
     padding: 10px;
-    
+
 }
 
 nav a {
@@ -67,16 +67,16 @@ nav a:hover {
     color: #1b2629;
 }
 
-.contact a:hover{
+.contact a:hover {
     text-shadow: 1px 1px 15px;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 20px;
     padding: 10px;
 }
 
-a .fa-brands:hover{
+a .fa-brands:hover {
     text-shadow: 1px 1px 15px;
 }
 
@@ -109,72 +109,81 @@ form input[type="submit"] {
     border: 1px solid #1b2629;
 }
 
-map iframe{
-    width:100%;
+map iframe {
+    width: 100%;
 }
 
 
 
 
+/* footer */
 footer {
     background-color: #1b2629;
     color: white;
     font-weight: bold;
     padding: 10px;
     height: fit-content;
-    
+
 }
 
-footer .ftr{
+footer .ftr {
     display: flex;
     justify-content: space-around;
 }
 
-.quick-links, .socials{
+.quick-links {
     display: flex;
     flex-direction: column;
 }
 
-.socials{
+.socials {
     text-align: center;
 }
 
-.quick-links a{
-    padding: 7px;
+.quick-links a {
+    padding: 2px;
     color: white;
+    font-size: 10px;
     text-align: center;
+    font-weight: lighter;
 }
 
-.quick-links a:hover, .socials a:hover{
+.quick-links a:hover,
+.socials a:hover {
     text-shadow: 1px 1px 10px;
 }
 
-footer .fa-brands{
-    font-size: 20px;
+footer .fa-brands {
+    font-size: 15px;
     color: white;
-    padding: 6px;
+    padding: 10px;
 }
 
-footer p{
+footer h3 {
+    font-size: 20px;
     text-align: center;
 }
 
-footer .address p{
+footer p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+footer .address p {
     width: 160px;
     padding-top: 8px;
+    font-weight: lighter;
+    font-size: 10px;
 }
 
-footer .logo img{
+footer .logo img {
     width: 100px;
     height: 100px;
-    padding-top: 50%;
+    padding-top: 20%;
 }
 
-footer h3{
-    font-size: 22px;
-    text-align: center;
-}
-
+/* footer end */
 
 @media screen and (max-width: 768px) {
     header {
@@ -231,14 +240,14 @@ footer h3{
     }
 
     form input[type="text"] {
-    width: 300px;
-    border-radius: 8px;
-    border: 1px solid #1b2629;
-    margin: 10px 0;
-    height: 30px;
-    outline: none;
-    padding-left: 10px;
-}
+        width: 300px;
+        border-radius: 8px;
+        border: 1px solid #1b2629;
+        margin: 10px 0;
+        height: 30px;
+        outline: none;
+        padding-left: 10px;
+    }
 
     form textarea {
         width: 300px;
@@ -259,25 +268,49 @@ footer h3{
         border: 1px solid #1b2629;
     }
 
-    footer .logo img{
-    width: 40px;
-    height: 60px;
-    padding-top: 50%;
-}
+    footer .logo img {
+        width: 40px;
+        height: 50px;
+        padding-top: 20%;
+    }
 
-footer .ftr{
-    display: flex;
-    justify-content: space-around;
-    font-size: 10px;
-}
+    footer .ftr {
+        display: flex;
+        justify-content: space-around;
+        font-size: 10px;
+    }
 
-footer h3{
-    font-size: 13px;
-    text-align: center;
-}
+    footer h3 {
+        font-size: 13px;
+        text-align: center;
+    }
 
-.socials .fa-brands{
-    font-size: 13px;
-}
+    .socials .fa-brands {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    footer .address p {
+        width: 160px;
+        padding-top: 8px;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+
+    .quick-links a {
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: column;
+    }
 
 }

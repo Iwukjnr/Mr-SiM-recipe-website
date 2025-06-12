@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: montserrat;
+    font-family: Monsterrat;
     scroll-behavior: smooth;
 }
 
@@ -125,6 +125,12 @@ body {
 .watch-vid a:hover {
     color: white;
     background-color: #1b2629;
+    text-shadow: 1px 1px 10px;
+}
+
+.watch-vid #jump{
+    background-color: #1b2629;
+    color: white;
 }
 
 .watch-vid {
@@ -207,7 +213,7 @@ body {
     height: 100%;
 }
 
-
+/* footer */
 footer {
     background-color: #1b2629;
     color: white;
@@ -222,7 +228,7 @@ footer .ftr{
     justify-content: space-around;
 }
 
-.quick-links, .socials{
+.quick-links{
     display: flex;
     flex-direction: column;
 }
@@ -232,9 +238,11 @@ footer .ftr{
 }
 
 .quick-links a{
-    padding: 7px;
+    padding: 2px;
     color: white;
+    font-size: 10px;
     text-align: center;
+    font-weight: lighter;
 }
 
 .quick-links a:hover, .socials a:hover{
@@ -242,30 +250,36 @@ footer .ftr{
 }
 
 footer .fa-brands{
-    font-size: 20px;
+    font-size: 15px;
     color: white;
-    padding: 6px;
+    padding: 10px;
 }
 
 footer h3{
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
 
 footer p{
     text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
 }
 
 footer .address p{
     width: 160px;
     padding-top: 8px;
+    font-weight: lighter;
+    font-size: 10px;
 }
 
 footer .logo img{
     width: 100px;
     height: 100px;
-    padding-top: 50%;
+    padding-top: 20%;
 }
+
+/* footer end */
 
 .recipe-collection {
     display: grid;
@@ -302,7 +316,7 @@ footer .logo img{
     text-align: center;
     color: #1b2629;
     text-shadow: 1px 1px 2px grey;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #all-recipes p {
@@ -446,7 +460,7 @@ footer .logo img{
         justify-content: space-around;
     }
 
-    header nav a{
+    header nav a {
         padding: 10px;
     }
 
@@ -461,7 +475,7 @@ footer .logo img{
     }
 
     #watch-vid {
-        height: 40vh;
+        height: 25vh;
     }
 
     .food-img img {
@@ -478,7 +492,7 @@ footer .logo img{
         padding: 10px;
         border-radius: 10px;
         border: 1px solid #1b2629;
-        font-size: 20px;
+        font-size: 15px;
         margin: 10px;
         font-weight: bolder;
         color: #1b2629;
@@ -504,7 +518,7 @@ footer .logo img{
 
 
     #newsletter h2 {
-        font-size: 30px;
+        font-size: 22px;
         font-weight: bolder;
         color: #1b2629;
         text-align: center;
@@ -512,7 +526,7 @@ footer .logo img{
     }
 
     #newsletter p {
-        font-size: 15px;
+        font-size: 10px;
         margin: 10px;
         text-align: center;
     }
@@ -540,8 +554,8 @@ footer .logo img{
 
     footer .logo img{
     width: 40px;
-    height: 60px;
-    padding-top: 50%;
+    height: 50px;
+    padding-top: 20%;
 }
 
 footer .ftr{
@@ -556,8 +570,33 @@ footer h3{
 }
 
 .socials .fa-brands{
-    font-size: 13px;
+    font-size: 12px;
+    padding: 3px;
 }
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+footer .address p{
+    width: 160px;
+    padding-top: 8px;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.quick-links a{
+    font-size: 10px;
+    padding: 3px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
 
     nav a {
         font-size: 20px;
